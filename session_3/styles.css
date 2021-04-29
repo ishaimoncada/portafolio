@@ -1,0 +1,134 @@
+.navbar{
+    background-color: rgba(255, 255, 255, 0.90);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+
+    box-shadow: 0px 6px 34px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 6px 34px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 6px 34px 0px rgba(0,0,0,0.15);
+    position: sticky;
+    top: 0;
+}
+body{
+    background: rgb(208,36,36);
+    background: linear-gradient(145deg, rgba(208,36,36,1) 0%, rgba(174,33,33,1) 100%);
+}
+.pregunta{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+    align-content: center;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+.pregunta h4 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.answer{ 
+    margin-bottom: 15px;
+}
+.answer a{
+    font-weight: 500;
+    color: #D02424;
+    transition: all 400ms ease;
+}
+.answer a:hover{
+    color: #d09124;
+}
+.nav-log-separator{
+    color: brown;
+    margin: 0 15px;
+}
+.context{
+    color: #d77b7b;
+}
+.text-danger span:hover{
+    color: rgb(0, 255, 174);
+}
+/* ENLACES*/
+a{
+    text-decoration: none;
+}
+/*TABLA*/
+
+.columna_1{
+    width: 70%;
+}
+.columna_2{
+    width: 10%;
+}
+.columna_3{
+    width: 10%;
+}
+.columna_4{
+    width: 10%;
+}
+
+table.blueTable {
+    border: 1px solid #D02424;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+    border: 1px solid #D02424;
+    padding: 3px 2px;
+}
+table.blueTable tbody td {
+    font-size: 13px;
+}
+  /* table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+  } */
+table.blueTable thead {
+    background: #D02424;
+}
+table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+table.blueTable tfoot td {
+    font-size: 15px;
+    
+}
+.respuesta-tabla{
+      text-align: center;
+}
+table.blueTable tfoot .links {
+    text-align: right;
+}
+table.blueTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+button{
+    border: none;
+    transition: all 400ms ease;
+}
+/* FOOTER */
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+footer p, footer a{
+    color: white;
+    transition: all 400ms ease;
+}
+footer a:hover{
+    color: yellow;
+}
+footer p{
+    text-align: center;
+}
